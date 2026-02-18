@@ -75,15 +75,27 @@ Price drops to $106: TP stays at $108 (trailing stop)
 - Python 3.7+
 - requests library
 
-```bash
+**Windows:**
+```powershell
 pip install requests
+```
+
+**Linux/macOS:**
+```bash
+pip3 install requests
 ```
 
 ## Usage
 
 ### Basic Run
-```bash
+**Windows:**
+```powershell
 python missile_bot.py
+```
+
+**Linux/macOS:**
+```bash
+python3 missile_bot.py
 ```
 
 ### Windows
@@ -285,5 +297,7 @@ if status == "blast":
 Provided as-is for personal use and learning.
 
 ---
+
+> **API keys are optional.** Paper/read-only mode uses the public REST API — no account or key required. Keys are only needed for live order execution.
 
 **Detect the missiles before they launch** 🚀
